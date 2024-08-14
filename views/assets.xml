@@ -1,0 +1,8 @@
+<odoo>
+    <template id="assets_backend" name="audio_files_assets" inherit_id="web.assets_backend">
+        <xpath expr="." position="inside">
+            <script type="text/javascript" src="/web/static/lib/mediaelement/mediaelement-and-player.min.js"></script>
+            <link rel="stylesheet" href="/web/static/lib/mediaelement/mediaelementplayer.min.css"/>
+        </xpath>
+    </template>
+</odoo>
